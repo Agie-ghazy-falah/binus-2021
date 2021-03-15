@@ -9,4 +9,14 @@ public interface EmployeeService {
     Mono<Employee> save(Employee student);
 
     Flux<Employee> findAll();
+
+    void keys();
+
+    void setValue();
+
+    void getValue();
+
+    void deleteKey();
+
+    void setKeyTimeout();
 }
