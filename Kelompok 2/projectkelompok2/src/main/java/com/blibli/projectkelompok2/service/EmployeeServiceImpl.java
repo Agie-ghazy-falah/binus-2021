@@ -19,8 +19,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeRepository employeeRepository;
 
     @Override
-    public Mono<Employee> save(Employee student) {
-        return employeeRepository.save();
+    public Mono<Employee> save(Employee employee) {
+        return employeeRepository.save(employee);
     }
 
     @Override
